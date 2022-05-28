@@ -47,6 +47,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.webstudio-blue{
+  color: #2196f3;
+}
+
 .webstudio:hover {
   color: #2196f3;
 }
@@ -361,7 +365,7 @@ body {
   width: 246px;
   height: 21px;
   left: 10%;
-  top: 30%;
+  top: 52%;
 
   font-family: "Roboto";
   font-style: normal;
