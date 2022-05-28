@@ -249,13 +249,39 @@ body {
 }
 
 .team-pattern {
-  text-align: center;
+  position: absolute;
+  width: 420px;
+  height: 42px;
+  left: 30%;
+  top: 930px;
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -330,16 +356,38 @@ body {
   background: #2f303a;
 }
 
-.footer-pattern address {
+.footer-address {
   position: absolute;
   width: 246px;
   height: 21px;
-  left: 215px;
-  top: 2208px;
+  left: 10%;
+  top: 30%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: white;
+}
+
+.footer-mail {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 10%;
+  top: 65%;
+}
+
+.footer-tel {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 10%;
+  top: 75%;
 }
 
 .pointer {
@@ -361,20 +409,14 @@ body {
   width: 145px;
   height: 31px;
   left: 10%;
-  top: 10%;
+  top: 40%;
   color: white;
 }
 
 .link-style {
   text-decoration: none;
 }
-.adress {
-  width: 246px;
-  height: 21px;
-  left: 10%;
-  top: 15%;
-  color: white;
-}
+
 .text {
   font-family: "Roboto";
   font-style: normal;
