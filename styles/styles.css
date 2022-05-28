@@ -15,7 +15,7 @@ body {
   background: #ffffff;
 }
 
-.menu-links {
+.menu-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -26,11 +26,11 @@ body {
   color: #212121;
 }
 
-.menu-links > li:hover {
+.menu-link:hover {
   color: #2196f3;
 }
 
-.menu-links > li:focus {
+.menu-link:focus {
   color: #2196f3;
 }
 
@@ -47,15 +47,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+.webstudio:hover {
+  color: #2196f3;
+}
+
+.webstudio:focus {
+  color: #2196f3;
+}
+
 .webstudio-one {
   position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
-}
-
-.webstudio-color {
   color: #212121;
 }
 
@@ -89,16 +94,6 @@ body {
   height: 16px;
   left: 1078px;
   top: 32px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-  text-decoration: none;
 }
 .numer {
   position: absolute;
@@ -106,15 +101,6 @@ body {
   height: 16px;
   left: 1263px;
   top: 32px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #757575;
 }
 
 .h1-pattern {
@@ -161,6 +147,7 @@ body {
   border-radius: 4px;
   color: white;
 }
+
 .lor-ips-one {
   position: absolute;
   width: 270px;
@@ -355,7 +342,11 @@ body {
   color: #ffffff;
 }
 
-.footer-pattern a {
+.pointer {
+  cursor: pointer;
+}
+
+.adress-links {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -363,19 +354,36 @@ body {
   line-height: 24px;
 
   letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-pattern .webstudio-two {
+.webstudio-two {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 2157px;
+  left: 10%;
+  top: 10%;
+  color: white;
 }
 
 .link-style {
+  text-decoration: none;
+}
+.adress {
+  width: 246px;
+  height: 21px;
+  left: 10%;
+  top: 15%;
+  color: white;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
   text-decoration: none;
 }
 
