@@ -47,7 +47,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.webstudio-blue{
+.webstudio-blue {
   color: #2196f3;
 }
 
@@ -493,4 +493,75 @@ body {
   height: 38px;
   left: 961px;
   top: 174px;
+}
+
+.pic-one-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+}
+.pic-two-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+}
+
+.pic-three-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 262px;
+}
+
+.pic-four-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 696px;
+}
+
+.pic-five-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 696px;
+}
+
+.pic-six-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 696px;
+}
+
+.pic-seven-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1130px;
+}
+
+.pic-eight-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1130px;
+}
+
+.pic-nine-port {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1130px;
 }
