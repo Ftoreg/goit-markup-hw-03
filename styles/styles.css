@@ -2,7 +2,9 @@ body {
   background-color: #e5e5e5;
   list-style-type: none;
   text-decoration: none;
-  font-family: "Roboto Raleway";
+  color: #212121;
+
+  font-family: "Roboto", "Raleway";
 }
 
 .menu-background {
@@ -16,8 +18,6 @@ body {
 }
 
 .menu-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -43,7 +43,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -107,18 +107,16 @@ body {
   top: 32px;
 }
 
-.h1-pattern {
+.h-one-pattern {
   position: absolute;
   width: 696px;
   height: 180px;
   left: 452px;
   top: 180px;
 
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -143,7 +141,6 @@ body {
   background: #f5f4fa;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #212121;
 }
 .button:hover {
   background: #2196f3;
@@ -185,11 +182,8 @@ body {
 }
 
 .lorem-ipsums p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
 
@@ -197,15 +191,11 @@ body {
 }
 
 .lorem-ipsums h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 
 .what-we-made {
@@ -217,15 +207,11 @@ body {
 }
 
 .h2-pattern {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 .pic-one {
@@ -254,37 +240,31 @@ body {
 
 .team-pattern {
   position: absolute;
-  width: 420px;
+  width: 210px;
   height: 42px;
-  left: 30%;
-  top: 930px;
+  left: 695px;
+  top: 1500px;
 
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
+
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -294,8 +274,8 @@ body {
   position: absolute;
   width: 270px;
   height: 368px;
-  left: 0%;
-  top: 1085px;
+  left: 215px;
+  top: 1635px;
 
   background: #ffffff;
 
@@ -309,8 +289,8 @@ body {
   position: absolute;
   width: 270px;
   height: 368px;
-  left: 25%;
-  top: 1085px;
+  left: 515px;
+  top: 1635px;
 
   background: #ffffff;
 
@@ -324,8 +304,8 @@ body {
   position: absolute;
   width: 270px;
   height: 368px;
-  left: 50%;
-  top: 1085px;
+  left: 815px;
+  top: 1635px;
 
   background: #ffffff;
 
@@ -339,8 +319,8 @@ body {
   position: absolute;
   width: 270px;
   height: 368px;
-  left: 75%;
-  top: 1085px;
+  left: 1115px;
+  top: 1635px;
 
   background: #ffffff;
 
@@ -367,11 +347,8 @@ body {
   left: 10%;
   top: 52%;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
 
@@ -399,11 +376,8 @@ body {
 }
 
 .adress-links {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
 }
@@ -422,11 +396,9 @@ body {
 }
 
 .text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -444,7 +416,6 @@ body {
 .buttons {
   background: #f5f4fa;
   border-radius: 4px;
-  color: black;
 }
 
 .buttons:hover {
@@ -564,4 +535,25 @@ body {
   height: 294px;
   left: 1015px;
   top: 1130px;
+}
+
+.pic {
+}
+
+.pic h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.pic p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
