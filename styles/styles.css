@@ -233,13 +233,13 @@ body {
   top: 45%;
 }
 
-.team-background{
+.team-background {
   position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1700px;
-background-color: #E5E5E5;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1700px;
+  background-color: #e5e5e5;
 }
 
 .team-pattern {
