@@ -1,10 +1,10 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   list-style-type: none;
   text-decoration: none;
   color: #212121;
 
-  font-family: "Roboto", "Raleway";
+  font-family: "Roboto", "Raleway", "sans-serif";
 }
 
 .menu-background {
@@ -138,11 +138,6 @@ body {
   left: 700px;
   top: 430px;
 
-  background: #f5f4fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.button:hover {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -238,12 +233,21 @@ body {
   top: 45%;
 }
 
+.team-background{
+  position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1700px;
+background-color: #E5E5E5;
+}
+
 .team-pattern {
   position: absolute;
-  width: 210px;
-  height: 42px;
-  left: 695px;
-  top: 1500px;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 0px;
 
   font-weight: 700;
   font-size: 36px;
@@ -275,7 +279,7 @@ body {
   width: 270px;
   height: 368px;
   left: 215px;
-  top: 1635px;
+  top: 150px;
 
   background: #ffffff;
 
@@ -290,7 +294,7 @@ body {
   width: 270px;
   height: 368px;
   left: 515px;
-  top: 1635px;
+  top: 150px;
 
   background: #ffffff;
 
@@ -305,7 +309,7 @@ body {
   width: 270px;
   height: 368px;
   left: 815px;
-  top: 1635px;
+  top: 150px;
 
   background: #ffffff;
 
@@ -320,7 +324,7 @@ body {
   width: 270px;
   height: 368px;
   left: 1115px;
-  top: 1635px;
+  top: 150px;
 
   background: #ffffff;
 
@@ -420,8 +424,6 @@ body {
 
 .buttons:hover {
   background: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: white;
 }
