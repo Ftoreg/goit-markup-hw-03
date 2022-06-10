@@ -17,10 +17,14 @@ body {
   background: #ffffff;
 }
 
+.list-style {
+  list-style: none;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
@@ -559,3 +563,13 @@ body {
 
   color: #757575;
 }
+
+:root {
+
+  --red: #b00;
+  
+  --blue: #4679bd;
+  
+  --grey: #ddd;
+  
+  }
