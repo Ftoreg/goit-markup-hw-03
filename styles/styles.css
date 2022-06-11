@@ -7,6 +7,14 @@ body {
   font-family: "Roboto", "Raleway", "sans-serif";
 }
 
+:root {
+  --red: #b00;
+
+  --blue: #4679bd;
+
+  --grey: #ddd;
+}
+
 .menu-background {
   position: absolute;
   width: 1600px;
@@ -424,6 +432,7 @@ body {
 .buttons {
   background: #f5f4fa;
   border-radius: 4px;
+  border:none
 }
 
 .buttons:hover {
@@ -563,13 +572,3 @@ body {
 
   color: #757575;
 }
-
-:root {
-
-  --red: #b00;
-  
-  --blue: #4679bd;
-  
-  --grey: #ddd;
-  
-  }
