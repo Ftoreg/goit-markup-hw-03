@@ -8,9 +8,9 @@ body {
 }
 
 :root {
-  --red: #b00;
+  --white: #ffffff;
 
-  --blue: #4679bd;
+  --blue: #2196f3;
 
   --grey: #ddd;
 }
@@ -39,11 +39,11 @@ body {
 }
 
 .menu-link:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .menu-list {
@@ -60,15 +60,15 @@ body {
 }
 
 .webstudio-blue {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .webstudio:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .webstudio:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .webstudio-one {
@@ -133,7 +133,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: white;
+  color: var(--white);
 }
 .black-square {
   position: absolute;
@@ -153,7 +153,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: white;
+  color: var(--white);
 }
 
 .lor-ips-one {
@@ -251,7 +251,7 @@ body {
   height: 648px;
   left: 0px;
   top: 1700px;
-  background-color: #e5e5e5;
+  background: var(--grey);
 }
 
 .team-pattern {
@@ -368,7 +368,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: white;
+  color: var(--white);
 }
 
 .footer-mail {
@@ -404,7 +404,7 @@ body {
   height: 31px;
   left: 10%;
   top: 40%;
-  color: white;
+  color: var(--white);
 }
 
 .link-style {
@@ -422,23 +422,23 @@ body {
 }
 
 .text:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .text:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 
 .buttons {
   background: #f5f4fa;
   border-radius: 4px;
-  border:none
+  border: none;
 }
 
 .buttons:hover {
-  background: #2196f3;
+  background: var(--blue);
   border-radius: 4px;
-  color: white;
+  color: var(--white);
 }
 
 .button-one {
